@@ -1,0 +1,541 @@
+<!DOCTYPE html>-
+<html>
+<head>
+    <title>BLOOD DONATION</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            colour: #b30000;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            padding: 15px;
+        }
+
+        table {
+            background: white;
+            margin: auto;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        input, select {
+            padding: 7px;
+        }
+
+        input[type="submit"] {
+            background: #b30000;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background: #800000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Blood Donation</h2>
+
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <h1>🩸 Blood Donation Login</h1>
+
+    <form>
+        <table>
+
+            <tr>
+                <td>Login As</td>
+                <td>
+                    <input type="radio" name="role"> Donor
+                    <input type="radio" name="role"> Receiver
+                </td>
+            </tr>
+
+            <tr>
+                <td>Username</td>
+                <td>
+                    <input type="text" placeholder="Username">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" placeholder="Password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Blood Group</td>
+                <td>
+                    <select>
+                        <option>Select Group</option>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Login">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DONOR REGISTRATION</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+        }
+
+        h2 {
+            color: rgb(219, 20, 20);
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #b30000;
+        }
+
+        form {
+            background: #b30000;
+            padding: 20px;
+            width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: white;
+        }
+
+        input, select {
+            padding: 8px;
+            margin-top: 5px;
+            width: 95%;
+        }
+
+        button {
+            background: white;
+            color: #b30000;
+            padding: 10px 25px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Blood Donation</h2>
+
+    <div>
+        <a href="login project.html">Home</a>
+        <a href="donor.html">Donor</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<h1>🩸 Donor Registration</h1>
+
+<form>
+
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Age:</label>
+    <input type="number" placeholder="Enter your age">
+
+    <label>Gender:</label>
+    <select>
+        <option>Male</option>
+        <option>Female</option>
+    </select>
+
+    <label>Blood Group:</label>
+    <select>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+        <option>O+</option>
+        <option>O-</option>
+    </select>
+
+    <label>State:</label>
+    <input type="text" placeholder="Enter your State">
+
+    <label>City:</label>
+    <input type="text" placeholder="Enter your city">
+
+    <label>Phone Number:</label>
+    <input type="tel" placeholder="Enter your phone number">
+
+    <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RECEIVER REQUEST</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+        }
+
+        h2 {
+            color: rgb(219, 20, 20);
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #b30000;
+        }
+
+        form {
+            background: #b30000;
+            padding: 20px;
+            width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: white;
+        }
+
+        input, select {
+            padding: 8px;
+            margin-top: 5px;
+            width: 95%;
+        }
+
+        button {
+            background: white;
+            color: #b30000;
+            padding: 10px 25px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Blood Donation</h2>
+
+    <div>
+        <a href="login project.html">Home</a>
+        <a href="donor.html">Donor</a>
+        <a href="receiver.html">Receiver</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<h1>🩸 Blood Request</h1>
+
+<form onsubmit="requestBlood(event)">
+
+    <label>Patient Name:</label>
+    <input type="text" placeholder="Enter patient name" required>
+
+    <label>Age:</label>
+    <input type="number" placeholder="Enter age" required>
+
+    <label>Blood Group Required:</label>
+    <select id="blood" required>
+        <option value="">Select Group</option>
+        <option value="Apositive">A+</option>
+        <option value="Anegative">A-</option>
+        <option value="Bpositive">B+</option>
+        <option value="Bnegative">B-</option>
+        <option value="ABpositive">AB+</option>
+        <option value="ABnegative">AB-</option>
+        <option value="Opositive">O+</option>
+        <option value="Onegative">O-</option>
+    </select>
+
+    <label>Hospital Name:</label>
+    <input type="text" placeholder="Enter hospital name" required>
+
+    <label>State:</label>
+    <input type="text" placeholder="Enter State" required>
+
+    <label>City:</label>
+    <input type="text" placeholder="Enter city" required>
+
+    <label>Phone Number:</label>
+    <input type="tel" placeholder="Enter phone number" required>
+
+    <label>Blood Units Required:</label>
+    <input type="number" id="units" placeholder="Enter units" min="1" required>
+
+    <button type="submit">Request Blood</button>
+
+</form>
+
+<script>
+
+    function requestBlood(event) {
+
+        event.preventDefault();
+
+        let blood = document.getElementById("blood").value;
+        let units = Number(document.getElementById("units").value);
+
+        let available = Number(localStorage.getItem(blood) || 0);
+
+        if (available >= units) {
+
+            localStorage.setItem(blood, available - units);
+
+            alert("Blood Request Successful!");
+
+            window.location.href = "inventory.html";
+
+        } else {
+
+            alert("Blood Not Available!");
+
+        }
+    }
+
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BLOOD INVENTORY</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+        }
+
+        h2 {
+            color: rgb(219, 20, 20);
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #b30000;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            padding: 15px;
+        }
+
+        table {
+            background: white;
+            margin: auto;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background: #b30000;
+            color: white;
+        }
+
+        td {
+            background: #ffe6e6;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Blood Donation</h2>
+
+    <div>
+        <a href="login project.html">Home</a>
+        <a href="donor.html">Donor</a>
+        <a href="Receiver.html">Receiver</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<h1>🩸 Blood Inventory</h1>
+
+<table>
+
+    <tr>
+        <th>Blood Group</th>
+        <th>Available Units</th>
+    </tr>
+
+    <tr>
+        <td>A+</td>
+        <td id="Apositive">0</td>
+    </tr>
+
+    <tr>
+        <td>A-</td>
+        <td id="Anegative">0</td>
+    </tr>
+
+    <tr>
+        <td>B+</td>
+        <td id="Bpositive">0</td>
+    </tr>
+
+    <tr>
+        <td>B-</td>
+        <td id="Bnegative">0</td>
+    </tr>
+
+    <tr>
+        <td>AB+</td>
+        <td id="ABpositive">0</td>
+    </tr>
+
+    <tr>
+        <td>AB-</td>
+        <td id="ABnegative">0</td>
+    </tr>
+
+    <tr>
+        <td>O+</td>
+        <td id="Opositive">0</td>
+    </tr>
+
+    <tr>
+        <td>O-</td>
+        <td id="Onegative">0</td>
+    </tr>
+
+</table>
+
+<script>
+    document.getElementById("Apositive").innerText =
+        localStorage.getItem("Apositive") || 0;
+
+    document.getElementById("Anegative").innerText =
+        localStorage.getItem("Anegative") || 0;
+
+    document.getElementById("Bpositive").innerText =
+        localStorage.getItem("Bpositive") || 0;
+
+    document.getElementById("Bnegative").innerText =
+        localStorage.getItem("Bnegative") || 0;
+
+    document.getElementById("ABpositive").innerText =
+        localStorage.getItem("ABpositive") || 0;
+
+    document.getElementById("ABnegative").innerText =
+        localStorage.getItem("ABnegative") || 0;
+
+    document.getElementById("Opositive").innerText =
+        localStorage.getItem("Opositive") || 0;
+
+    document.getElementById("Onegative").innerText =
+        localStorage.getItem("Onegative") || 0;
+</script>
+
+</body>
+</html>
